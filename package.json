@@ -1,0 +1,17 @@
+{
+  "name": "expressfs",
+  "version": "0.2.10",
+  "description": "Allow your browser to call fs.",
+  "repository": "git://github.com/nudgepad/expressfs",
+  "main": "expressfs.js",
+  "dependencies": {
+    "async": "3.1.0",
+    "body-parser": "1.19.0",
+    "dirtospace": "0.2.0",
+    "express": "4.17.1",
+    "mkdirp": "0.5.1",
+    "underscore": "1.9.1"
+  },
+  "license": "MIT",
+  "author": "Breck Yunits"
+}

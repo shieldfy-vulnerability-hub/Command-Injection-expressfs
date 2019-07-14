@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  mainapp:
+    container_name: expfs
+    build: .
+    ports:
+      - '8000:3000'
+  # testattackapp:
+  #   container_name: test
+  #   build: ./docker/attack-test
+  #   ports:
+  #     - '8000:3000'
